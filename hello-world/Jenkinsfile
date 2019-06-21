@@ -11,9 +11,9 @@ pipeline {
                 echo 'Compile the source code' 
             }
         }
-        stage('Security Scan') {
+        stage('Security Check') {
             steps {
-                echo 'Run the security scan against the application' 
+                echo 'Run the security check against the application' 
             }
         }
         stage('Publish Artifacts') {
