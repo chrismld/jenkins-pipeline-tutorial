@@ -1,0 +1,25 @@
+pipeline {
+    agent any 
+    stages {
+        stage('Static Analysis') {
+            steps {
+                echo 'Run the static analysis to the code' 
+            }
+        }
+        stage('Compile') {
+            steps {
+                echo 'Compile the source code' 
+            }
+        }
+        stage('Security Scan') {
+            steps {
+                echo 'Run the security scan against the application' 
+            }
+        }
+        stage('Publish Artifacts') {
+            steps {
+                echo 'Save the assemblies generated from the compilation' 
+            }
+        }
+    }
+}
