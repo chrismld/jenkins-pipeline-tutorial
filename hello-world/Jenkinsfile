@@ -16,6 +16,11 @@ pipeline {
                 echo 'Run the security check against the application' 
             }
         }
+        stage('Run Unit Tests') {
+            steps {
+                echo 'Run unit tests' 
+            }
+        }
         stage('Publish Artifacts') {
             steps {
                 echo 'Save the assemblies generated from the compilation' 
