@@ -38,6 +38,8 @@ pipeline {
 		}
 		success {
 			echo 'pipeline success'
+			sh 'curl -H "Accept: application/json+v3" http://3.108.190.188:8085/job/test/lastBuild/api/json -o myresponse.json'
+			sh 'cat myresponse.json'
 		}
 		failure {
 			echo 'pipeline failed'
