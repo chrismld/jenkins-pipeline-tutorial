@@ -1,4 +1,4 @@
 # jenkins-pipeline-tutorial
 Jenkins Pipeline Tutorial
- this is to test how a webhook triggers a jenkins pipeline
+ This is to test how a webhook triggers a jenkins pipeline
  At the same time there is another webhook configured to trigger jenkins parser of GCP fourkeys
