@@ -38,7 +38,7 @@ pipeline {
 		}
 		success {
 			echo 'pipeline success'
-			sh 'curl --user admin:110be18c8130e9776853c4b4d335ef562c -H "Accept: application/json+v3" http://65.2.141.143:8085/job/test/lastBuild/api/json -o myresponse.json'
+			sh 'curl --user admin:110be18c8130e9776853c4b4d335ef562c -H "Accept: application/json+v3" http://3.110.31.32:8085/job/test/lastBuild/api/json -o myresponse.json'
 			sh 'cat myresponse.json'
 		}
 		failure {
