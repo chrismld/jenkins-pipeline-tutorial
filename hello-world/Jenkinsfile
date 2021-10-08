@@ -38,8 +38,9 @@ pipeline {
 		}
 		success {
 			echo 'pipeline success'
-			sh 'curl --user admin:110be18c8130e9776853c4b4d335ef562c -H "Accept: application/json+v3" http://3.110.31.32:8085/job/test/lastBuild/api/json -o myresponse.json'
+			sh 'curl --user admin:110be18c8130e9776853c4b4d335ef562c -H "Accept: application/json+v3" http://13.233.53.187:8085/job/test/lastBuild/api/json -o myresponse.json'
 			sh 'cat myresponse.json'
+			sh 'curl -i -X POST https://git-jenkins-fourkeys-6afwlahozq-uc.a.run.app -H "Content-Type: application/json" --data-binary "@myresponse.json"'
 		}
 		failure {
 			echo 'pipeline failed'
