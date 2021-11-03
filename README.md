@@ -7,3 +7,5 @@ ct feature 1
 ct feature 1 minor fix 2
 
 new bug fix 1.1
+
+ct feature 2
