@@ -13,3 +13,5 @@ ct feature 2
 ct feature 3
 
 new bug fix 1.2
+
+ct feature 4
