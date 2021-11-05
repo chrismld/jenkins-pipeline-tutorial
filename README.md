@@ -21,3 +21,5 @@ bug fix 4.1
 feature 5
 
 feature 6 -> fix 1
+
+feature 7 -> fix 1 -> fix 2
