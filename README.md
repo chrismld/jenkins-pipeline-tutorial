@@ -22,4 +22,4 @@ feature 5
 
 feature 6 -> fix 1
 
-feature 7
+feature 7 -> fix 1
