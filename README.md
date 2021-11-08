@@ -4,40 +4,4 @@ Jenkins Pipeline Tutorial
  At the same time there is another webhook configured to trigger jenkins parser of GCP fourkeys project 
 
 ct feature 1
-ct feature 1 minor fix 2
 
-new bug fix 1.1
-
-ct feature 2
-
-ct feature 3
-
-new bug fix 1.2
-
-ct feature 4
-
-bug fix 4.1
-
-feature 5
-
-feature 6 -> fix 1
-
-feature 7 -> fix 1 -> fix 2
-
-feature 8
-featrue 8.1
-
-feature 9, 9.1, 9.2
-
-feature 10
-
-feature 11
-
-fearure 12
-
-feature 13
-
-feature 14,15 16 17 18 19 20
-
-feature 21 22 23 24 25 26 27 28 29 30
-feature 31 32 33 34 35
