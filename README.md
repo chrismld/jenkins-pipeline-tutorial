@@ -7,3 +7,5 @@ Feature 1, 1.1
 trying to fix issue, fixed
 
 feature 2, 2.1
+feature 3
+feature 4
