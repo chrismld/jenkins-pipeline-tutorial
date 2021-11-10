@@ -40,7 +40,7 @@ pipeline {
 			echo 'pipeline success'
 			sh 'curl --user admin:110be18c8130e9776853c4b4d335ef562c -H "Accept: application/json+v3" http://13.127.44.252:8085/job/test/lastBuild/api/json -o myresponse.json'
 			sh 'cat myresponse.json'
-			sh 'curl -i -X POST https://event-handler-qlzk4qz7wa-uc.a.run.app -H "Content-Type: application/json" --data-binary "@myresponse.json"'
+			sh 'curl -i -X POST https://event-handler-3cpdjgduuq-uc.a.run.app -H "Content-Type: application/json" --data-binary "@myresponse.json"'
 		}
 		failure {
 			echo 'pipeline failed'
