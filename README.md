@@ -15,3 +15,5 @@ feature 5 fixed
 feature 6
 
 feature 7, fixed
+
+feature 8
