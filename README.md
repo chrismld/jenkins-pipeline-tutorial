@@ -7,3 +7,4 @@ Feature a
 b
 
 feature c
+feature c fixed
