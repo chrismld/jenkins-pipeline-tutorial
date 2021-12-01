@@ -9,3 +9,5 @@ b
 feature c
 feature c fixed
 feature d
+
+feature d
