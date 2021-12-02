@@ -15,3 +15,4 @@ feature d
 feature e, fixed
 
 feature f
+fix #1
