@@ -17,3 +17,5 @@ feature e, fixed
 feature f
 fix #1
 fix #2
+
+feature g
