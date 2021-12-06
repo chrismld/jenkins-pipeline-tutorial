@@ -1,5 +1,5 @@
 pipeline {
-    agent any123 
+    agent any
     stages {
         stage('Static Analysis') {
             steps {
