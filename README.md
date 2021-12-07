@@ -3,34 +3,4 @@ Jenkins Pipeline Tutorial
  This is to test how a webhook triggers a jenkins pipeline
  At the same time there is another webhook configured to trigger jenkins parser of GCP fourkeys project 
 
-Feature a
-b
-
-feature c
-feature c fixed
-feature d
-
-feature d
-
-feature e, fixed
-
-feature f
-fix #1
-fix #2
-
-feature g
-
-
-feature h with g fix
-
-feature i
-
-feature j
-
-feature k
-
-feature l
-
-featrure m
-
-feature n
+feature 1
