@@ -5,22 +5,4 @@ Jenkins Pipeline Tutorial
 
 feature 1
 
-feature 2
 
-feature 3 
-feature 4
-
-4 fixed
-
-feature 5
-
-feature 6
-
-feature 7
-
-feature 8
-
-feature 9
-
-featrure 10
-4
