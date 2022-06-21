@@ -6,6 +6,7 @@ pipeline {
                 echo 'Run the static analysis to the code' 
             }
         }
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '812822f4-43e7-49ce-bc37-75489b56008a', url: 'https://github.com/leomahesh/jenkins-pipeline-tutorial.git']]])
         stage('Compile') {
             steps {
                 echo 'Compile the source code' 
